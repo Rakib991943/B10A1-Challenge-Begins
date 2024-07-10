@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Azeret Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* Shere Style */
+.btn {
+  padding: 10px 15px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.same-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* Optional Style Start Here  */
+.optional-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.optiona-nav .alwad {
+  font-size: 28px;
+  font-weight: 800;
+
+}
+
+.optional-nav .btn1 {
+  padding: 17px 24px;
+  margin-left: 600px;
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+/* Optional Style Ends  Here  */
+
+/* Hero banner contains Style start here */
+.hero-banner-contains {
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+  width: 1480px;
+  height: 580px;
+  /* border: 2px solid red; */
+}
+
+.banner-content {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 1000px;
+  height: 500px;
+  margin: 40px auto;
+  text-align: center;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+
+}
+
+.banner-content .devlowper-heading {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+#challenge {
+  /* background-color: black; */
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 18px 20px;
+  color: white;
+  margin-top: 30px;
+}
+
+.describ {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Hero banner contains Style  Ends here */
+
+/* Section2 Contanis Style Start Here */
+.section2-contains {
+  box-sizing: border-box;
+  width: 1250px;
+  height: 1270px;
+  margin: 30px auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.section2-contains .containt {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.why {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.parent1,
+.parent2,
+.parent3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
+  margin-bottom: 15px;
+
+}
+
+.parent1 .child {
+  width: 60%;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+
+.parent2 .child {
+  border-radius: 16px;
+  padding: 30px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  width: 60%;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.parent3 .child {
+  border-radius: 16px;
+  padding: 30px;
+  margin-top: 45px;
+  width: 60%;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.same {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+/* Section2 Contanis Style Start Here */
+
+/* My Inspiration Style Start Here */
+.my-inspiration {
+  width: 1250px;
+  box-sizing: border-box;
+  height: 750px;
+  margin: 0 auto;
+}
+
+.inspiration {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inspiration . .same1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.ins-describ {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.video {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 1250px;
+  height: 614px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+
+}
+
+.jankar {
+  display: block;
+  margin: 20px auto;
+  border-radius: 16px;
+}
+
+.ins-h3 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+/* My Inspiration Style Start Here */
+/* My tar get style Start */
+.my-target {
+  box-sizing: border-box;
+  width: 1250px;
+  height: 460px;
+  margin: 32px auto;
+
+}
+
+.my-target .target {
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+
+}
+
+#p1 {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.parents {
+  display: flex;
+  gap: 20px;
+}
+
+.parents .childs-lan {
+  width: 33%;
+  padding: 25px;
+}
+
+#learn {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#html {
+  border-radius: 16px;
+
+  background: rgba(255, 76, 30, 0.05);
+}
+
+#css {
+  border-radius: 16px;
+
+  background: rgba(0, 76, 232, 0.05);
+}
+
+#js {
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
+}
+
+/* My tar get style Ends */
+/* My Next Target Style Start  Here  */
+.next-target {
+  width: 1250px;
+  height: 860px;
+  margin: 20px auto;
+}
+
+.targret2 {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.next {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.next-target .parent-framework {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 33px 30px;
+}
+
+/* My Next Target Style Ends Here  */
+/* Support Section Style Start */
+.support-contains {
+
+  width: 1250px;
+  height: 300px;
+  border: 2px solid red;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-image: url('../assets/handshake.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.support {
+  width: 800px;
+  height: 100%;
+  margin: 20px auto;
+}
+
+.need {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.need-desc {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px
+}
+
+.need-desc {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px
+}
+
+input[type="text"] {
+  width: 540px;
+  height: 50px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+}
+
+.submit {
+  border-radius: 8px;
+  width: 110px;
+  height: 50px;
+  background: rgb(255, 255, 255);
+}
+
+/* Support Section Style Start */
