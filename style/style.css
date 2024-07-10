@@ -85,7 +85,7 @@ body {
   margin-top: 30px;
 }
 
-.describ {
+.banner-content .describ {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
@@ -101,6 +101,14 @@ body {
   margin: 30px auto;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
+}
+
+.why-descrip {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 .section2-contains .containt {
@@ -320,9 +328,13 @@ body {
 }
 
 .support {
-  width: 800px;
-  height: 90%;
-  margin: 35px auto;
+  /* width: 800px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
 
 .need {
@@ -354,6 +366,7 @@ input[type="text"] {
   height: 50px;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 8px;
+  margin-top: 46px;
 
   background: rgb(255, 255, 255);
 }
@@ -368,7 +381,9 @@ input::placeholder {
 }
 
 .submit {
-
+  position: absolute;
+  right: 344px;
+  margin-top: 195px;
   font-weight: 600;
   font-size: 20px;
   border-radius: 8px;
