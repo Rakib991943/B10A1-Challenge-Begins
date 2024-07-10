@@ -293,6 +293,7 @@ body {
 }
 
 .next-target .parent-framework {
+  margin-bottom: 15px;
   display: flex;
   gap: 30px;
   align-items: center;
@@ -309,7 +310,6 @@ body {
 
   width: 1250px;
   height: 300px;
-  border: 2px solid red;
   margin: 0 auto;
   border-radius: 16px;
   background-image: url('../assets/handshake.jpg');
@@ -321,8 +321,8 @@ body {
 
 .support {
   width: 800px;
-  height: 100%;
-  margin: 20px auto;
+  height: 90%;
+  margin: 35px auto;
 }
 
 .need {
